@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://brnl34ura1kcw"]
+
+[ext_resource type="PackedScene" uid="uid://boxagjfwru6s3" path="res://Source/Player/Player.tscn" id="1_5ixdr"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 320.0
+offset_bottom = 180.0
+color = Color(0, 0, 0, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_5ixdr")]
+position = Vector2(160, 90)
